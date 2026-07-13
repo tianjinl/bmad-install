@@ -1,3 +1,0 @@
-module,skill,display-name,menu-code,description,action,args,phase,preceded-by,followed-by,required,output-location,outputs
-Applefile Module,applefile-setup,Setup Applefile Module,SU,Install or update Applefile module config and help entries.,configure,{-H: headless mode}|{inline values: skip prompts with provided values},anytime,,,false,{project-root}/_bmad,config.yaml and config.user.yaml
-Applefile Module,applefile-api,Applefile API,AA,Create or inspect Applefile API automation guidance.,activate,{request: API task or question},anytime,applefile-setup:configure,,false,applefile_output_folder,API guidance
